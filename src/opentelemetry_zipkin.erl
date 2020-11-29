@@ -5,8 +5,8 @@
          shutdown/1]).
 
 -include_lib("kernel/include/logger.hrl").
--include_lib("deps/opentelemetry/apps/opentelemetry_api/include/opentelemetry.hrl").
--include_lib("deps/opentelemetry/apps/opentelemetry/include/otel_span.hrl").
+-include("deps/opentelemetry/apps/opentelemetry_api/include/opentelemetry.hrl").
+-include("deps/opentelemetry/apps/opentelemetry/include/otel_span.hrl").
 -include("opentelemetry_zipkin_pb.hrl").
 
 -define(DEFAULT_ZIPKIN_ADDRESS, "http://localhost:9411/api/v2/spans").
